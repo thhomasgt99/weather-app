@@ -1,7 +1,7 @@
 import React, { createContext, useState, useEffect } from "react";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 
-const ENDPOINT = 'http://api.openweathermap.org/data/2.5';//process.env.REACT_APP_API
+const ENDPOINT = 'https://api.openweathermap.org/data/2.5';//process.env.REACT_APP_API
 const API_KEY = '097e0ba9b9777db9143bd8e77e3da1ab';//process.env.REACT_APP_API_KEY
 
 
