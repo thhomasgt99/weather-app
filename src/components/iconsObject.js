@@ -2,12 +2,13 @@ const iconSourceByCode = {
     "01d": <i className="fa-duotone fa-sun"></i>,
     "02d": <i className="fa-duotone fa-cloud-sun"></i>,
     "03d": <i className="fa-solid fa-cloud"></i>,
-    "04d": <i className="fa-duotone fa-clouds"></i>,
+    "04d": <i class="fa-solid fa-cloud-showers-heavy"></i>,
+    
     "09d": <i className="fa-duotone fa-cloud-rain"></i>,
     "10d": 
     <div className="merge-container">
-        <i className="fa-duotone fa-cloud-rain cloud-rain-sun__rain"></i>
-        <i className="fa-duotone fa-sun cloud-rain-sun__sun"></i>
+        <i class="fa-solid fa-cloud-rain fa-duotone fa-cloud-rain cloud-rain-sun__rain"></i>
+        <i class="fa-solid fa-sun fa-duotone fa-sun cloud-rain-sun__sun"></i>
     </div>,
     "11d": 
     <div className="merge-container">
@@ -19,7 +20,7 @@ const iconSourceByCode = {
     "01n": <i className="fa-duotone fa-moon"></i>,
     "02n": <i className="fa-duotone fa-cloud-moon"></i>,
     "03n": <i className="fa-solid fa-cloud"></i>,
-    "04n": <i className="fa-duotone fa-clouds"></i>,
+    "04n": <i class="fa-solid fa-cloud-showers-heavy"></i>,
     "09n": <i className="fa-duotone fa-cloud-rain"></i>,
     "10n": 
     <div className="merge-container">

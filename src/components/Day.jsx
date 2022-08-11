@@ -33,13 +33,13 @@ const Day = ({ data, today }) => {
             </div>
             <div className="daily__min-temp daily-subgrid-temp" title="Minimum Temperature">
                 <span className="min__icon">
-                    <i className="fa-duotone fa-temperature-empty"></i>
+                <i class="fa-solid fa-temperature-empty"></i>
                 </span>
                 <span>{getNumberOneDecimal(data.temp.min)}°</span>
             </div>
             <div className="daily__max-temp daily-subgrid-temp" title="Maximum Temperature">
                 <span className="max__icon">
-                    <i className="fa-duotone fa-temperature-full"></i>
+                <i class="fa-solid fa-temperature-full"></i>
                 </span>
                 <span>{getNumberOneDecimal(data.temp.max)}°</span>
             </div>
